@@ -22,4 +22,4 @@ Duality 22 ortaklarının (Serhan Başak, Doğan Ali Bey, Hilal Hanım, İbrahim
 ## Marka
 
 d22global.com'dan: mavi `#2854cb`, lacivert `#0b1d45`, turkuaz `#087fad`.
-Vektörel logo ve resmi renk kodları Doğan Ali Bey'den bekleniyor (26.10 maili).
+Logo dosyaları (vektörel PDF + PNG) Doğan Ali Bey'den 16.11'de geldi; Drive'da. Slogan: "Local Value. Global Movement."
