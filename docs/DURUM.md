@@ -36,7 +36,9 @@ _Son güncelleme: 26.11.2026_
 
 ## Kalanlar
 - Ortakların ilk girişte Hesabım'dan geçici şifrelerini değiştirmesi
-- Supabase Auth: dışarıdan kayıt (signup) kapatılmalı; Site URL = https://takip.d22global.com (Dashboard › Authentication)
+- Supabase mail (SMTP) ayarı yapılmadı — Serhan Bey kararı (26.11). Şifresini unutan olursa yeni geçici şifre SQL ile verilir.
+  Gerekirse: mail.d22global.com, port 465, kullanıcı info@d22global.com (SPF: kurumsalbulutmail.com; DKIM yok).
+- Supabase Auth'ta dışarıdan kayıt açık (profil olmadan hiçbir veri görünmez); site adresi ayarı yapılmadı.
 - `info@d22global.com` SMTP bilgileri → Supabase'e girilecek (davet ve şifre maillerini bu adres gönderir)
 - Sunucu yönetimi: Taner Muhammet Bulut (Tim Project). Sunucu Plesk.
 - 26.11: `takip.d22global.com` Taner Bey tarafından açıldı (217.131.14.13). Let's Encrypt SSL kurulu (24.02.2027'ye kadar, otomatik yenileme), HTTP→HTTPS yönlendirme açık.
