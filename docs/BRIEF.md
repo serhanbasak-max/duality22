@@ -29,7 +29,7 @@ Demo (referans arayüz): https://claude.ai/artifact/ACLjCCHaQeCPDMkHazCeox
 ## 3. Mimari
 
 ```
-Tarayıcı (React + Vite, takip.duality22.com – Duality 22 sunucusu)
+Tarayıcı (React + Vite, takip.d22global.com – Duality 22 sunucusu)
    │  supabase-js (oturum, RLS'li sorgular)
    ▼
 Supabase
@@ -45,7 +45,7 @@ Supabase
 ```
 
 - **Ön yüz:** React + Vite + TypeScript; derlenen sabit dosyalar Duality 22'nin kendi sunucusunda
-  `takip.duality22.com` altında. Sunucuda PHP/Node gerekmez. Mobil öncelikli (demo düzeni korunur).
+  `takip.d22global.com` altında. Sunucuda PHP/Node gerekmez. Mobil öncelikli (demo düzeni korunur).
 - **Dil:** başlangıçta TR. Tüm arayüz metinleri `messages/tr.json`'da; EN eklemek dosya eklemek kadar.
 - **Bölge:** Supabase AB (Frankfurt) — KVKK açısından yurt içine en yakın seçenek.
 
@@ -109,7 +109,7 @@ sistemleri (ajans, mali müşavirlik) için ilk aşamada CSV; ihtiyaç olursa ba
 | `digest-weekly` | Pazartesi 08:00 | her ortağa kendi özeti: yeni kayıtlar, aşama değişimleri, kendisine bekleyen eşleşmeler, sorumlu olduğu adımlar |
 | `drive-sync` | dosya yüklenince | Drive'da `D22 Takip/Tedarikçiler/<Firma>/` klasörüne kopya + 1–3 cümle özet |
 
-Mail gönderimi: `info@duality22.com` SMTP'si (Duality 22 sunucusu); Supabase Auth mailleri de bu SMTP ile gider.
+Mail gönderimi: `info@d22global.com` SMTP'si (Duality 22 sunucusu); Supabase Auth mailleri de bu SMTP ile gider.
 
 ## 8. Dosyalar
 

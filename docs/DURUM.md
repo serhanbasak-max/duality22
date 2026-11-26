@@ -21,24 +21,25 @@ _Son güncelleme: 26.11.2026_
 | Konu | Karar |
 |---|---|
 | 5.11 ortak toplantısı | Ortaklar demoyu beğendi, onayladı, kullanacaklar |
-| Alan adı / barındırma | takip.duality22.com — Duality 22'nin kendi sunucusu |
+| Alan adı / barındırma | takip.d22global.com — Duality 22'nin kendi sunucusu |
 | Dil | Türkçe |
 | Supabase | `d22-takip`, Frankfurt, ücretsiz plan — açıldı, şema yüklü |
-| Mail gönderen adresi | info@duality22.com — tüm ortakların birlikte kullandığı ve gördüğü ortak kutu |
+| Mail gönderen adresi | info@d22global.com — tüm ortakların birlikte kullandığı ve gördüğü ortak kutu |
 
 ## Kullanıcılar
 | Kullanıcı adı | Ad | Rol | E-posta |
 |---|---|---|---|
-| serhan | Serhan Başak | yönetici | serhan@duality22.com |
-| dogan | Doğan Ali Ceylan | ortak | dogan@duality22.com |
-| hilal | Hilal Hanım | ortak | info@duality22.com (kendi adına adresi yok; giriş hesabı bu adrese bağlı) |
-| ibrahim | İbrahim Bey | ortak | ibrahim@duality22.com |
+| serhan | Serhan Başak | yönetici | serhan@d22global.com |
+| dogan | Doğan Ali Ceylan | ortak | dogan@d22global.com |
+| hilal | Hilal Hanım | ortak | info@d22global.com (kendi adına adresi yok; giriş hesabı bu adrese bağlı) |
+| ibrahim | İbrahim Bey | ortak | ibrahim@d22global.com |
 
 ## Yayına almak için gerekenler
-- Sunucuya erişim (cPanel/FTP/SSH) ve `takip.duality22.com` alt alan adı + SSL
-- `info@duality22.com` SMTP bilgileri → Supabase'e girilecek (davet ve şifre maillerini bu adres gönderir)
+- Sunucuya erişim (cPanel/FTP/SSH) ve `takip.d22global.com` alt alan adı + SSL
+- `info@d22global.com` SMTP bilgileri → Supabase'e girilecek (davet ve şifre maillerini bu adres gönderir)
 - Ortak hesapları açılacak (serhan, dogan, ibrahim, hilal)
-- Sunucu yönetimi: Taner Muhammet Bulut (Tim Project) — bilgi talebi WhatsApp'tan iletildi
+- Sunucu yönetimi: Taner Muhammet Bulut (Tim Project). Sunucu Plesk.
+- 26.11: `takip.d22global.com` Taner Bey tarafından açıldı (217.131.14.13). SSL henüz yok (Plesk varsayılan sertifikası) → Let's Encrypt kurulacak.
 
 ## Bekleyen dış girdiler
 - Resmi renk kodları (HEX/RGB) logo dosyalarıyla gelmedi; şimdilik sitedeki renkler kullanılıyor
