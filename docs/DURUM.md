@@ -35,11 +35,13 @@ _Son güncelleme: 26.11.2026_
 | ibrahim | İbrahim Bey | ortak | ibrahim@d22global.com |
 
 ## Kalanlar
+- Ortakların ilk girişte Hesabım'dan geçici şifrelerini değiştirmesi
+- Supabase Auth: dışarıdan kayıt (signup) kapatılmalı; Site URL = https://takip.d22global.com (Dashboard › Authentication)
 - `info@d22global.com` SMTP bilgileri → Supabase'e girilecek (davet ve şifre maillerini bu adres gönderir)
-- Ortak hesapları açılacak (serhan, dogan, ibrahim, hilal)
 - Sunucu yönetimi: Taner Muhammet Bulut (Tim Project). Sunucu Plesk.
 - 26.11: `takip.d22global.com` Taner Bey tarafından açıldı (217.131.14.13). Let's Encrypt SSL kurulu (24.02.2027'ye kadar, otomatik yenileme), HTTP→HTTPS yönlendirme açık.
-- 26.11: Serhan Bey Plesk Dosya Yöneticisi ile paketi `takip.d22global.com` köküne yükledi. **Site yayında: https://takip.d22global.com** (hesaplar henüz açılmadı).
+- 26.11: Serhan Bey Plesk Dosya Yöneticisi ile paketi `takip.d22global.com` köküne yükledi. **Site yayında: https://takip.d22global.com**
+- 26.11: Dört ortağın hesabı geçici şifreyle açıldı (serhan yönetici; dogan, hilal, ibrahim ortak). Canlı sitede giriş test edildi..
 - Plesk paneli bu bulut ortamından erişilemiyor (IP + 8880 portu); güncellemeler için FTP/SFTP hesabı istenecek.
 
 ## Bekleyen dış girdiler
