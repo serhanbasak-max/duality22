@@ -1,12 +1,13 @@
 # Proje durumu
 
-_Son güncelleme: 23.11.2026_
+_Son güncelleme: 26.11.2026_
 
 ## Geçmiş
 - **05.11** – Genel Koordinatör başlangıcı yaptı: demo sayfa, tanıtım videosu, marka renkleri.
 - **06.11** – Proje bu depoya devredildi. Teknik brief ve veri tabanı şema taslağı yazıldı.
 - **16.11** – Doğan Ali Bey logo dosyalarını gönderdi (renkli/beyaz/siyah, vektörel PDF + PNG, simge, LinkedIn kapak, mail imzası). Drive'a kaydedildi.
 - **23.11** – Kararlar netleşti (aşağıda).
+- **26.11** – Supabase projesi `d22-takip` açıldı (Frankfurt, ücretsiz plan, ref `rdzpqgfryruibldlowkt`). Şema yüklendi, güvenlik denetimi uyarıları kapatıldı, tetikleyiciler canlıda test edildi.
 
 ## Hazır olanlar
 - Demo: https://claude.ai/artifact/ACLjCCHaQeCPDMkHazCeox
@@ -21,19 +22,19 @@ _Son güncelleme: 23.11.2026_
 | 5.11 ortak toplantısı | Ortaklar demoyu beğendi, onayladı, kullanacaklar |
 | Alan adı | takip.d22global.com |
 | Dil | Türkçe |
-| Supabase | Yeni proje `d22-takip`, Frankfurt (ücretsiz plan) — açılış için Serhan Bey'in onayı bekleniyor |
-| Mail gönderen adresi | takip@d22global.com (öneri) |
+| Supabase | `d22-takip`, Frankfurt, ücretsiz plan — açıldı, şema yüklü |
+| Mail gönderen adresi | info@duality22.com (ortak kutu, tüm ortaklarda var) |
 
 ## Kullanıcılar
 | Kullanıcı adı | Ad | Rol | E-posta |
 |---|---|---|---|
-| serhan | Serhan Başak | yönetici | serhan@d22global.com |
-| dogan | Doğan Ali Ceylan | ortak | dogan@simpleajans.com |
+| serhan | Serhan Başak | yönetici | serhan@duality22.com |
+| dogan | Doğan Ali Ceylan | ortak | dogan@duality22.com |
 | hilal | Hilal Hanım | ortak | _bekleniyor_ |
-| ibrahim | İbrahim Bey | ortak | _bekleniyor_ |
+| ibrahim | İbrahim Bey | ortak | ibrahim@duality22.com |
 
 ## Bekleyen dış girdiler
-- Hilal Hanım ve İbrahim Bey'in e-posta adresleri
+- Hilal Hanım'ın e-posta adresi
 - Resmi renk kodları (HEX/RGB) logo dosyalarıyla gelmedi; şimdilik sitedeki renkler kullanılıyor
 - Her ortak: bağlamak istediği müşteri çevresi (liste/CSV ya da sistem bağlantısı)
 

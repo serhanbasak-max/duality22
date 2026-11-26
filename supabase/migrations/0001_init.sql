@@ -2,7 +2,7 @@
 -- Ortak alan: tüm ortaklar okur/yazar, yalnızca yönetici siler.
 -- Özel alan (circles, circle_members, matches): yalnızca sahibi görür.
 
-create extension if not exists pg_trgm;
+create extension if not exists pg_trgm with schema extensions;
 
 -- ---------- Türler ----------
 create type user_role as enum ('yonetici', 'ortak');
@@ -207,12 +207,12 @@ create index on activity_log (created_at desc);
 create index on circle_members (circle_id);
 create index on circle_members (owner_id);
 create index on matches (owner_id, status);
-create index suppliers_trgm on suppliers using gin ((coalesce(name,'') || ' ' || coalesce(sector,'') || ' ' || coalesce(product_summary,'')) gin_trgm_ops);
-create index products_trgm on products using gin ((coalesce(name,'') || ' ' || coalesce(product_group,'')) gin_trgm_ops);
-create index circle_members_trgm on circle_members using gin ((coalesce(sector,'') || ' ' || coalesce(needs,'')) gin_trgm_ops);
+create index suppliers_trgm on suppliers using gin ((coalesce(name,'') || ' ' || coalesce(sector,'') || ' ' || coalesce(product_summary,'')) extensions.gin_trgm_ops);
+create index products_trgm on products using gin ((coalesce(name,'') || ' ' || coalesce(product_group,'')) extensions.gin_trgm_ops);
+create index circle_members_trgm on circle_members using gin ((coalesce(sector,'') || ' ' || coalesce(needs,'')) extensions.gin_trgm_ops);
 
 -- ---------- updated_at ----------
-create or replace function touch_updated_at() returns trigger language plpgsql as $$
+create or replace function touch_updated_at() returns trigger language plpgsql set search_path = public as $$
 begin new.updated_at := now(); return new; end $$;
 
 create trigger t_suppliers_touch before update on suppliers for each row execute function touch_updated_at();
