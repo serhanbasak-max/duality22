@@ -34,10 +34,9 @@ _Son güncelleme: 26.11.2026_
 | hilal | Hilal Hanım | ortak | info@d22global.com (kendi adına adresi yok; giriş hesabı bu adrese bağlı) |
 | ibrahim | İbrahim Bey | ortak | ibrahim@d22global.com |
 
-- 26.11: Mevcut veriler Drive'dan aktarıldı (Serhan Bey adına): "Duality 22 - Tedarikçi Listesi" tablosundan 6 tedarikçi + 6 kişi, 9 ürün; "Tedarikçi katalogları" klasöründen 10 dosya (Drive bağlantısıyla).
+- 26.11: Mevcut veriler Drive'dan aktarıldı (Serhan Bey adına): "Duality 22 - Tedarikçi Listesi" tablosundan 6 tedarikçi + 6 kişi, 9 ürün; "Tedarikçi katalogları" klasöründen 10 dosya (Drive bağlantısıyla). Klasör zaten "bağlantıya sahip herkes görüntüleyebilir" ayarında; ortaklar dosyaları açabiliyor.
 
 ## Kalanlar
-- Drive'daki "Tedarikçi katalogları" klasörü ortaklarla paylaşılmadı; dosya bağlantıları şimdilik yalnızca Serhan Bey'de açılır
 - Ortakların ilk girişte Hesabım'dan geçici şifrelerini değiştirmesi
 - Supabase mail (SMTP) ayarı yapılmadı — Serhan Bey kararı (26.11). Şifresini unutan olursa yeni geçici şifre SQL ile verilir.
   Gerekirse: mail.d22global.com, port 465, kullanıcı info@d22global.com (SPF: kurumsalbulutmail.com; DKIM yok).
