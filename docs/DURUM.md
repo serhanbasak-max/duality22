@@ -31,16 +31,16 @@ _Son güncelleme: 26.11.2026_
 |---|---|---|---|
 | serhan | Serhan Başak | yönetici | serhan@duality22.com |
 | dogan | Doğan Ali Ceylan | ortak | dogan@duality22.com |
-| hilal | Hilal Hanım | ortak | _bekleniyor_ |
+| hilal | Hilal Hanım | ortak | info@duality22.com (kendi adına adresi olmayacak; ortak kutuyu kullanır) |
 | ibrahim | İbrahim Bey | ortak | ibrahim@duality22.com |
 
 ## Yayına almak için gerekenler
 - Sunucuya erişim (cPanel/FTP/SSH) ve `takip.duality22.com` alt alan adı + SSL
 - `info@duality22.com` SMTP bilgileri → Supabase'e girilecek (davet ve şifre maillerini bu adres gönderir)
-- Ortak hesapları açılacak (serhan, dogan, ibrahim; hilal e-postası gelince)
+- Ortak hesapları açılacak (serhan, dogan, ibrahim, hilal)
+- Sunucu yönetimi: Taner Muhammet Bulut (Tim Project) — bilgi talebi WhatsApp'tan iletildi
 
 ## Bekleyen dış girdiler
-- Hilal Hanım'ın e-posta adresi
 - Resmi renk kodları (HEX/RGB) logo dosyalarıyla gelmedi; şimdilik sitedeki renkler kullanılıyor
 - Her ortak: bağlamak istediği müşteri çevresi (liste/CSV ya da sistem bağlantısı)
 
