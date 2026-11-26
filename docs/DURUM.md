@@ -24,14 +24,14 @@ _Son güncelleme: 26.11.2026_
 | Alan adı / barındırma | takip.duality22.com — Duality 22'nin kendi sunucusu |
 | Dil | Türkçe |
 | Supabase | `d22-takip`, Frankfurt, ücretsiz plan — açıldı, şema yüklü |
-| Mail gönderen adresi | info@duality22.com (ortak kutu, tüm ortaklarda var) |
+| Mail gönderen adresi | info@duality22.com — tüm ortakların birlikte kullandığı ve gördüğü ortak kutu |
 
 ## Kullanıcılar
 | Kullanıcı adı | Ad | Rol | E-posta |
 |---|---|---|---|
 | serhan | Serhan Başak | yönetici | serhan@duality22.com |
 | dogan | Doğan Ali Ceylan | ortak | dogan@duality22.com |
-| hilal | Hilal Hanım | ortak | info@duality22.com (kendi adına adresi olmayacak; ortak kutuyu kullanır) |
+| hilal | Hilal Hanım | ortak | info@duality22.com (kendi adına adresi yok; giriş hesabı bu adrese bağlı) |
 | ibrahim | İbrahim Bey | ortak | ibrahim@duality22.com |
 
 ## Yayına almak için gerekenler
